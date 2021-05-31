@@ -1,47 +1,56 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #f0f0f0;
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #404B69;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
-
+ 
 }
 
 footer {
-  color: #DBEDF3;
+  color: #404B69;
   font-family: sans-serif;
 }
 
 .w {
-
+  background-image: url("images/abdelbasset-abdessamad.png");
+  background-size: cover;
+ 
 }
 
 .a {
 
+  background-image: url("images/abdul-rahman-al-sudais.png");
+  background-size: cover;
 }
 
 .s {
 
+  background-image: url("images/abu-bakr-al-shatri.png");
+  background-size: cover;
 }
 
 .d {
-
+  background-image: url("images/mahmoud-khalil-al-hussary.png");
+  background-size: cover;
 }
 
 .j {
-
+  background-image: url("images/fares-abbad.png");
+  background-size: cover;
 }
 
 .k {
-
+  background-image: url("images/mishary-rashid-alafasy.png");
+  background-size: cover;
 }
 
 .l {
-
+  background-image: url("images/NTc3YWQ2NjYwZTIwNTY4ZTFlYzM4OGI4YTZkM2QwZGIucG5n.png");
+  background-size: cover;
 }
 
 .set {
@@ -62,20 +71,20 @@ footer {
   color: red;
 }
 
-.drum {
+.quran {
   outline: none;
   border: 10px solid #404B69;
-  font-size: 5rem;
+  font-size: 2rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
+  color: #f0f0f0;
+   border-radius: 15px;
   display: inline-block;
   width: 150px;
   height: 150px;
-  text-align: center;
+  text-align:center;
+  content-visibility: hidden;
   margin: 10px;
   background-color: white;
 }
